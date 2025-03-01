@@ -3,7 +3,7 @@
 from collections import defaultdict
 import string
 import time
-from utils import load_words, calculate_hamming_distance, create_graph_visualization, calculate_score, generate_word_pair
+from utils import load_words, create_graph_visualization, calculate_score, generate_word_pair
 from algorithms import bfs_search, ucs_search, gbfs_search, a_star_search
 
 class WordLadderGame:
